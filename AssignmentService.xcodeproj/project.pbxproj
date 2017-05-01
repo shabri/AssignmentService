@@ -7,16 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		730EBED31EB7DA0D001BD31C /* WeatherServiceRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 730EBED11EB7DA0D001BD31C /* WeatherServiceRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		730EBED41EB7DA0D001BD31C /* WeatherServiceRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 730EBED21EB7DA0D001BD31C /* WeatherServiceRequest.m */; };
+		730EBED51EB7DBA5001BD31C /* ServiceRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 73AA0C941EB1ADC0000A94BE /* ServiceRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73AA0C851EB1ABF9000A94BE /* AssignmentService.h in Headers */ = {isa = PBXBuildFile; fileRef = 73AA0C841EB1ABF9000A94BE /* AssignmentService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73AA0C8E1EB1AD99000A94BE /* WeatherDetailsObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AA0C8C1EB1AD99000A94BE /* WeatherDetailsObject.m */; };
 		73AA0C8F1EB1AD99000A94BE /* WeatherDetailsObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 73AA0C8D1EB1AD99000A94BE /* WeatherDetailsObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73AA0C921EB1ADA8000A94BE /* NSString+JustSpaces.h in Headers */ = {isa = PBXBuildFile; fileRef = 73AA0C901EB1ADA8000A94BE /* NSString+JustSpaces.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73AA0C931EB1ADA8000A94BE /* NSString+JustSpaces.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AA0C911EB1ADA8000A94BE /* NSString+JustSpaces.m */; };
-		73AA0C961EB1ADC0000A94BE /* ServiceRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 73AA0C941EB1ADC0000A94BE /* ServiceRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		73AA0C971EB1ADC0000A94BE /* ServiceRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 73AA0C951EB1ADC0000A94BE /* ServiceRequest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		730EBED11EB7DA0D001BD31C /* WeatherServiceRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherServiceRequest.h; sourceTree = "<group>"; };
+		730EBED21EB7DA0D001BD31C /* WeatherServiceRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherServiceRequest.m; sourceTree = "<group>"; };
 		73AA0C811EB1ABF9000A94BE /* AssignmentService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AssignmentService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73AA0C841EB1ABF9000A94BE /* AssignmentService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AssignmentService.h; sourceTree = "<group>"; };
 		73AA0C861EB1ABF9000A94BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -58,6 +62,8 @@
 		73AA0C831EB1ABF9000A94BE /* AssignmentService */ = {
 			isa = PBXGroup;
 			children = (
+				730EBED11EB7DA0D001BD31C /* WeatherServiceRequest.h */,
+				730EBED21EB7DA0D001BD31C /* WeatherServiceRequest.m */,
 				73AA0C941EB1ADC0000A94BE /* ServiceRequest.h */,
 				73AA0C951EB1ADC0000A94BE /* ServiceRequest.m */,
 				73AA0C901EB1ADA8000A94BE /* NSString+JustSpaces.h */,
@@ -77,8 +83,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73AA0C961EB1ADC0000A94BE /* ServiceRequest.h in Headers */,
 				73AA0C8F1EB1AD99000A94BE /* WeatherDetailsObject.h in Headers */,
+				730EBED51EB7DBA5001BD31C /* ServiceRequest.h in Headers */,
+				730EBED31EB7DA0D001BD31C /* WeatherServiceRequest.h in Headers */,
 				73AA0C851EB1ABF9000A94BE /* AssignmentService.h in Headers */,
 				73AA0C921EB1ADA8000A94BE /* NSString+JustSpaces.h in Headers */,
 			);
@@ -153,6 +160,7 @@
 			files = (
 				73AA0C931EB1ADA8000A94BE /* NSString+JustSpaces.m in Sources */,
 				73AA0C8E1EB1AD99000A94BE /* WeatherDetailsObject.m in Sources */,
+				730EBED41EB7DA0D001BD31C /* WeatherServiceRequest.m in Sources */,
 				73AA0C971EB1ADC0000A94BE /* ServiceRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
